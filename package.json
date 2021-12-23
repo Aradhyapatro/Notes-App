@@ -1,0 +1,19 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "Node.js project to take notes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aradhyapatro/Notes-App.git"
+  },
+  "author": "Aradhya Patro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aradhyapatro/Notes-App/issues"
+  },
+  "homepage": "https://github.com/Aradhyapatro/Notes-App#readme"
+}
