@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Aradhyapatro/Notes-App/issues"
   },
-  "homepage": "https://github.com/Aradhyapatro/Notes-App#readme"
+  "homepage": "https://github.com/Aradhyapatro/Notes-App#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
