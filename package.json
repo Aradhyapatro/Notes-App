@@ -1,7 +1,6 @@
 {
   "name": "notes-app",
   "version": "1.0.0",
-  "type": "module",
   "description": "Node.js project to take notes",
   "main": "app.js",
   "scripts": {
@@ -20,6 +19,7 @@
   "dependencies": {
     "chalk": "^5.0.0",
     "nodemon": "^2.0.15",
-    "validator": "^13.7.0"
+    "validator": "^13.7.0",
+    "yargs": "^17.3.1"
   }
 }
