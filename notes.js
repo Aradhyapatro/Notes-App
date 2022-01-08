@@ -32,8 +32,8 @@ const addNotes = (obj) => {
     data = JSON.parse(data);
     data.push(obj);
     data = JSON.stringify(data);
-    console.log(data);
     fs.writeFileSync("Detail.json", data);
+    console.log("Note has been added");
   }
 };
 
