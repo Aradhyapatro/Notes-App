@@ -37,6 +37,13 @@ yargs.command({
 yargs.command({
   command: "remove",
   describe: "remove note from the list",
+  builder: {
+    title: {
+      describe: "Title to add",
+      demandOption: true,
+      type: String,
+    },
+  },
   handler: function (argv) {
     const title = argv.title;
 
