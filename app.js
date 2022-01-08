@@ -1,5 +1,8 @@
 const chalk = import("chalk");
 const yargs = require("yargs");
+const fs = require("fs");
+const { boolean } = require("yargs");
+const { addNote, removeNote } = require("./notes");
 
 // Create addcommand
 yargs.command({
@@ -18,8 +21,15 @@ yargs.command({
     },
   },
   handler: function (argv) {
-    console.log("The Title is '" + argv.title + "'");
-    console.log("The Body is = " + argv.body);
+    let obj;
+    try {
+      obj = {
+        Title: `${argv.title}`,
+        Content: `${argv.body}`,
+      };
+    } finally {
+      addNote(obj);
+    }
   },
 });
 
@@ -27,8 +37,10 @@ yargs.command({
 yargs.command({
   command: "remove",
   describe: "remove note from the list",
-  handler: function () {
-    console.log("Note was removed");
+  handler: function (argv) {
+    const title = argv.title;
+
+    removeNote(title);
   },
 });
 
