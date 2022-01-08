@@ -33,7 +33,7 @@ const addNotes = (obj) => {
     data.push(obj);
     data = JSON.stringify(data);
     fs.writeFileSync("Detail.json", data);
-    console.log("Note has been added");
+    console.log("Note has been added to Notes");
   }
 };
 
