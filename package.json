@@ -1,6 +1,7 @@
 {
   "name": "notes-app",
   "version": "1.0.0",
+  "type": "module",
   "description": "Node.js project to take notes",
   "main": "app.js",
   "scripts": {
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/Aradhyapatro/Notes-App#readme",
   "dependencies": {
-    "nodemon": "^2.0.15"
+    "chalk": "^5.0.0",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
   }
 }
