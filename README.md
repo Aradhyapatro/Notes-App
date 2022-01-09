@@ -4,9 +4,10 @@ Basic Node.js Project
 
 Steps to be followed to set-up the Environment:
 
-- npm install
+
 - Open it in Vscode or any other code editor
 - open up the terminal
+- npm install
 
 ## Add note
 ```
