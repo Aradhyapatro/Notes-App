@@ -13,7 +13,7 @@ const getNotes = (argv) => {
 
 const addNotes = (obj) => {
   let adding, data;
-
+  debugger
   try {
     data = fs.readFileSync("Detail.json", "utf-8");
     adding = data.length == 0 ? false : true;
@@ -24,6 +24,7 @@ const addNotes = (obj) => {
     fs.writeFileSync("Detail.json", data);
     console.log("Note has been added to Notes");
   }
+  debugger;
 };
 
 const removeNotes = (title) => {
