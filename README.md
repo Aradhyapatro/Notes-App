@@ -11,13 +11,13 @@ Steps to be followed to set-up the Environment:
 
 ## Add note
 ```
-node app.js add --title="{title will go here}" --body="{Content will go here}"
+node app.js add --title="{title will go here without the curly brackets}" --body="{Content will go here without the curly bracket}"
 ```
   after this in the Detail.json file the note will be added
 
 ## Remove note
 ```
-node app.js remove --title="{title will go here}"
+node app.js remove --title="{title will go here without the curly bracket}"
 ```
   after this the note will be removed from the Detail.json file
 
@@ -29,6 +29,6 @@ node app.js list
 
 ## Read Note
 ```
-- node app.js read --title="Title will go here"
+- node app.js read --title="Title will go here without the curly bracket"
 ```
   will read that particular note from the Detail.json file
