@@ -29,6 +29,6 @@ node app.js list
 
 ## Read Note
 ```
-- node app.js read --title="Title will go here without the curly bracket"
+node app.js read --title="Title will go here without the curly bracket"
 ```
   will read that particular note from the Detail.json file
